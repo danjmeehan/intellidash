@@ -1,1 +1,34 @@
-/* Scratch, you say? */
+body{
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+  	font-weight:300;
+}
+.primary-background{
+	background-color: #c5d3d1;	
+}
+.secondary-background{
+	background-color: #247559;
+}
+.border{
+	border: 1px dashed black;
+}
+
+/*HEADER*/
+header{
+	height:75px;
+	line-height:75px;
+}
+header .logo{
+	float: left;
+}
+header img{
+	vertical-align: middle;
+}
+header .text{
+	float: left;
+	font-size: 16px;
+	padding-left:10px;
+}
+header nav{
+	float: right;
+}
