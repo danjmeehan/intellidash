@@ -4,13 +4,17 @@ body{
   	font-weight:300;
 }
 .primary-background{
-	background-color: #c5d3d1;	
+	background-color: #E8EBE6;	
 }
 .secondary-background{
 	background-color: #247559;
 }
 .border{
-	border: 1px dashed black;
+	border: 1px solid #BDBFBB;
+}
+.no-gutter{
+	padding-left: 0;
+	padding-right: 0;
 }
 
 /*HEADER*/
@@ -31,4 +35,26 @@ header .text{
 }
 header nav{
 	float: right;
+}
+
+
+/*NAV BAR*/
+.search{
+	padding-left: 20px;
+}
+form button{
+	float: left;
+}
+li{
+	padding: 5px 0 5px 5px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+/*MAIN*/
+.chart{
+	margin-top: 30px;
+	height: 100px;
 }
