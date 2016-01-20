@@ -1,7 +1,8 @@
-body{
+html,body{
 	margin:0;
 	font-family: 'Open Sans', sans-serif;
   	font-weight:300;
+  	height: 100%;
 }
 .primary-background{
 	background-color: #E8EBE6;	
@@ -9,18 +10,12 @@ body{
 .secondary-background{
 	background-color: #247559;
 }
-.border{
-	border: 1px solid #BDBFBB;
-}
-.no-gutter{
-	padding-left: 0;
-	padding-right: 0;
-}
 
 /*HEADER*/
 header{
 	height:75px;
 	line-height:75px;
+	border-bottom: 2px solid #999;
 }
 header .logo{
 	float: left;
@@ -37,24 +32,41 @@ header nav{
 	float: right;
 }
 
-
-/*NAV BAR*/
-.search{
-	padding-left: 20px;
-}
-form button{
-	float: left;
-}
-li{
-	padding: 5px 0 5px 5px;
-}
-a{
-	text-decoration: none;
-	color: black;
-}
-
 /*MAIN*/
+/*NAV BAR*/
+.sidebar{
+	height: 100%;
+	padding: 0;
+	border-right: 1px solid #999;
+}
+.sidebar .input-group{
+	padding: 15px 15px 15px 15px;
+	border-bottom: 1px solid #999;
+}
+.sidebar .nav{
+	font-size: 16px;
+	margin-top: 0;
+}
+.sidebar .nav li{
+	margin-top: 0;
+}
+.sidebar .nav li a{
+	color: #222;
+	padding: 15px 15px;
+	border-bottom: 1px solid #999;	
+}
+.sidebar .nav li a .glyphicon{
+	margin-right: 5px;
+}
+
+/*CONTENT*/
 .chart{
 	margin-top: 30px;
 	height: 100px;
+}
+
+@media screen and (min-width:768px){
+	main, main .row{
+		height: 100%;
+	}
 }
